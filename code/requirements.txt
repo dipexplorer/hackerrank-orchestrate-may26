@@ -1,0 +1,25 @@
+# === LLM & AI ===
+anthropic>=0.49.0
+openai>=1.76.0
+
+# === Embeddings & Vector Store ===
+sentence-transformers>=3.3.1
+faiss-cpu>=1.9.0
+
+# === Data & Output ===
+pandas>=2.2.3
+pydantic>=2.10.6
+
+# === Config & Secrets ===
+python-dotenv>=1.0.1
+
+# === Terminal & Logging ===
+rich>=13.7.1
+loguru>=0.7.3
+
+# === Tokenization (optional, for precise chunking) ===
+tiktoken>=0.9.0
+
+# === Testing ===
+pytest>=8.3.5
+pytest-cov>=6.1.0
